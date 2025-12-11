@@ -1,0 +1,69 @@
+{
+    "p_public1": {
+        "Userid": "p_public1",
+        "Pseudonyme": "pu",
+        "Mdp": "mdp",
+        "Age": 15,
+        "Prive": false,
+        "Notifications": [],
+        "Amis suivis": [
+            "p_public2",
+            "p_prive1"
+        ],
+        "Demande envoye": []
+    },
+    "p_public2": {
+        "Userid": "p_public2",
+        "Pseudonyme": "test",
+        "Mdp": "mdp",
+        "Age": 18,
+        "Prive": false,
+        "Notifications": [],
+        "Amis suivis": [
+            "p_public1",
+            "p_prive2"
+        ],
+        "Demande envoye": []
+    },
+    "p_prive1": {
+        "Userid": "p_prive",
+        "Pseudonyme": "po",
+        "Mdp": "mdp",
+        "Age": 25,
+        "Prive": true,
+        "Notifications": [],
+        "Demande recu": [],
+        "Amis suivis": [
+            "p_public1",
+            "p_prive2"
+        ],
+        "Demande envoye": []
+    },
+    "p_prive2": {
+        "Userid": "p_prive2",
+        "Pseudonyme": "p2",
+        "Mdp": "mdp",
+        "Age": 52,
+        "Prive": true,
+        "Notifications": [
+            [
+                2,
+                "p_prive1"
+            ]
+        ],
+        "Amis suivis": [
+            "p_public2",
+            "p_prive1"
+        ],
+        "Demande recu": [],
+        "Demande envoye": []
+    },
+    "model_json": {
+        "Userid": "model_json",
+        "Pseudonyme": "ezf",
+        "Mdp": "c",
+        "Age": 66,
+        "Prive": false,
+        "Notifications": []
+    }
+}
